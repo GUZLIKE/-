@@ -165,26 +165,13 @@
 //     Console.WriteLine($"Число {b} больше чем {a}");
 // }
 
-Console.Write("Введите число:");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите второе число:");
-int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(b);
+// Console.Write("Введите число:");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число:");
+// int b = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(b);
 
-if(a>b)
-{
-    Console.WriteLine($"Число {a} больше чем число {b}");
-}
-else if (a<b)
-{
-    Console.WriteLine($"Число {a} меньше чем число {b}");
-}
-
-
-
-// finally
-// {
-//     if(a>b)
+// if(a>b)
 // {
 //     Console.WriteLine($"Число {a} больше чем число {b}");
 // }
@@ -192,7 +179,54 @@ else if (a<b)
 // {
 //     Console.WriteLine($"Число {a} меньше чем число {b}");
 // }
+
+
+// Console.Write("Введите своё имя:");
+// string? name = Console.ReadLine();
+// if (name == "Alex")
+// {
+//     Console.WriteLine("Вас зовут Alex");
+// }
+// else if (name == "Bob")
+// {
+//     Console.WriteLine("Вас зовут Bob");
+// }
+// else if (name == "Ilya")
+// {
+//     Console.WriteLine("Вас зовут Илья");
+// }
+// else if (name == "Milya")
+// {
+//     Console.WriteLine("Вас зовут Milya");
+// }
+// else
+// {
+//     Console.WriteLine("ЭТО КАКАЯ-ТО ХУЙНЯ!");
 // }
 
 
+
+// Console.Write("Введите число:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// if(num1==num2)
+// {
+//     Console.WriteLine($"Число {num1} равно {num2}.");
+// }
+
+// else if (num1>num2)
+// {
+//     Console.WriteLine($"Число {num1} больше чем {num2}.");
+// }
+
+// else if (num1<num2)
+// {
+//     Console.WriteLine($"Число {num1} меньше {num2}.");
+// }
+
+// else
+// {
+//     Console.WriteLine("Ты как это вызвал?");
+// }
 
