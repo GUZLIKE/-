@@ -167,15 +167,9 @@
 
 Console.Write("Введите число:");
 int a = Convert.ToInt32(Console.ReadLine());
-int z;
-while(!int.TryParse(Console.ReadLine(), out z))
-Console.WriteLine("Веденное значение не число, повторите ввод");
-Console.WriteLine(z);
 Console.Write("Введите второе число:");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(b);
-
-
 
 if(a>b)
 {
