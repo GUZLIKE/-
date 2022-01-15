@@ -1,9 +1,3 @@
-// {
-//     Console.WriteLine("Hello World!");
-//     {
-//         Console.WriteLine("Howdy!");
-//     }
-// }
 
 // {
 //     int number;
@@ -28,7 +22,7 @@
 //         Console.WriteLine($"{my_name}"+","+$"{NAME}");
 //     }
 // }
-
+// ПРИКОЛЫ С ВЫВЕДЕНИЕМ ВСКОГО 
 
 // {
 // Console.WriteLine(true);
@@ -63,6 +57,7 @@
 //     }
 // }
 
+// И ЭТО ТОЖЕ
 
 // {
 //     char a;
@@ -81,12 +76,14 @@
 //     }
 // }
 
+// НАГЛЯДНЫЙ ПРИМЕР ПОДОБИЯ f строк(этот $) из питона
 
 // string name = "Tom";
 // int age = 33;
 // bool isEmplooyed = false;
 // double weight = 78.31;
 
+// РАЗЛИЧНЫЕ ТИПЫ ДАННЫХ
 
 // {
 //     Console.WriteLine($"Имя:{name}");
@@ -113,27 +110,20 @@
 // Console.WriteLine($"Твой рост: {height} метров");
 // Console.WriteLine($"Твой вес: {weight} кг");
 
+// ПЕРВАЯ МАЛЕНЬКАЯ ПРОГРАММКА
+
 // Console.Write("Введите имя: ");
 // string? name = Console.ReadLine();
-
-
-
 // Console.Write("Введите возраст: ");
 // int age = Convert.ToInt32(Console.ReadLine());
-
-
-
 // Console.Write("Введите рост: ");
 // double height = Convert.ToDouble(Console.ReadLine());
-
-
-
 // Console.Write("Введите размер зарплаты: ");
 // decimal salary = Convert.ToDecimal(Console.ReadLine());
-
-
 // Console.WriteLine($"Имя: {name} Возраст: {age} Рост: {height}м Зарплата: {salary}$");
 
+
+// АРИФМЕТИЧЕСКИЕ ОПЕРАЦИИ
 // int a = 10;
 // int b = 5 + a;
 // int a = 25;
