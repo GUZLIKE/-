@@ -230,3 +230,49 @@
 //     Console.WriteLine("Ты как это вызвал?");
 // }
 
+
+// Console.Write("Введите число в диапазоне от 6 до 9:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// if (5<num1 && num1<10)
+// {
+//     Console.WriteLine("Число больше 5 и меньше 10");
+// }
+// else if (num1<5)
+// {
+//     Console.WriteLine($"Число {num1} меньше 5");
+// }
+// else
+// {
+//     Console.WriteLine("Неизвестное число");
+// }
+
+// Console.Write("Введите число 5 или число 10:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// if (num1 == 5 | num1 == 10)
+// {
+//     Console.WriteLine($"Число  либо равно 5, либо равно 10");
+// }
+// else if (num1<5)
+// {
+//     Console.WriteLine($"Число меньше 5");
+// }
+// else if (num1>10)
+// {
+//     Console.WriteLine($"Число больше 10");
+// }
+
+// for(int i = 1; i<5; i++)
+// {
+//     Console.WriteLine(i);
+// }
+// for(int i = 2,j = 3; i<100;i++,j++)
+// {
+//     Console.WriteLine($"{i*j}");
+// }   
+
+// var i = 4;
+// var p = 3;
+// for (Console.WriteLine("Начало выполнения цикла"); i<100;Console.WriteLine($"i={i*p}"))
+// {
+//     i++;
+// }
