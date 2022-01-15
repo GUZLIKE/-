@@ -276,3 +276,12 @@
 // {
 //     i++;
 // }
+
+
+int i = 6;
+do
+{
+    Console.WriteLine(i*5);
+    i++;
+}
+while(i<100);
