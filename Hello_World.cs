@@ -144,6 +144,7 @@
 // Console.WriteLine(z);
 // Console.WriteLine(d);
 
+// ЦИКЛ IF| ELSE IF| ELSE
 // int a = 10;
 // int b = 10;
 // if(a>b)
@@ -236,6 +237,7 @@
 //     Console.WriteLine("Неизвестное число");
 // }
 
+
 // Console.Write("Введите число 5 или число 10:");
 // int num1 = Convert.ToInt32(Console.ReadLine());
 // if (num1 == 5 | num1 == 10)
@@ -268,10 +270,43 @@
 // }
 
 
-int i = 6;
-do
+// ЦИКЛ DO|WHILE
+// int i = 6;
+// do
+// {
+//     Console.WriteLine(i*5);
+//     i++;
+// }
+// while(i<100);
+
+// ЦИКЛ WHILE
+// int o = 10;
+// int a = 10;
+// while (o<1000)
+// {
+// o++;
+// a++;
+// Console.WriteLine(o*a);     
+// }
+
+// ЦИКЛ FOREACH
+// foreach (var a in "Tom_1234567890101010101")
+// {
+//     Console.WriteLine(a);    
+// }
+
+
+//ОПЕРАТОРЫ BREAK|CONTINUE
+// for (int i = 0; i < 100; i++)
+// {
+//     if(i==81)
+//     break;
+//     Console.WriteLine(i);    
+// }
+
+for (int i = 0; i < 100; i++)
 {
-    Console.WriteLine(i*5);
-    i++;
+    if(i==81)
+    continue;
+    Console.WriteLine(i);
 }
-while(i<100);
