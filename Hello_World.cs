@@ -304,9 +304,41 @@
 //     Console.WriteLine(i);    
 // }
 
-for (int i = 0; i < 100; i++)
-{
-    if(i==81)
-    continue;
-    Console.WriteLine(i);
-}
+
+// for (int i = 0; i < 100; i++)
+// {
+//     if(i==81)
+//     continue;
+//     Console.WriteLine(i);
+// }
+
+
+// МАССИВЫ
+
+// int[] nums = new int[4];
+// int[] nums = new int[5] {1,2,3,4,5};
+// foreach (var i in nums)
+// {
+//  Console.WriteLine(i);   
+// }
+
+string[] people = {"Tom","Bob","Mike","Richard"};
+// Console.WriteLine(people[2]);
+// {
+//     foreach (var i in people)
+//     {
+//         Console.WriteLine($"\n{i}");
+//     }
+// }
+// ПОЛУЧЕНИЕ ЭЛЕМЕНТА МАССИВА В ПЕРЕМЕННУЮ
+// var i = people[1];
+// Console.WriteLine(i);
+// people[0] = "ABOBA";
+// Console.WriteLine(people[0]); 
+// {
+//     foreach (var i in people)
+//     {
+//         Console.WriteLine($"\n{i}");
+//     }
+// }
+Console.WriteLine(people.Length);
