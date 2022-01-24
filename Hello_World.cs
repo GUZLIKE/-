@@ -322,7 +322,7 @@
 //  Console.WriteLine(i);   
 // }
 
-string[] people = {"Tom","Bob","Mike","Richard"};
+// string[] people = {"Tom","Bob","Mike","Richard"};
 // Console.WriteLine(people[2]);
 // {
 //     foreach (var i in people)
@@ -341,4 +341,178 @@ string[] people = {"Tom","Bob","Mike","Richard"};
 //         Console.WriteLine($"\n{i}");
 //     }
 // }
-Console.WriteLine(people.Length);
+// Console.WriteLine(people.Length);
+
+
+// Console.WriteLine("Hello World!");
+
+// Console.Write("Введите своё имя!:");
+// string? name = Console.ReadLine();
+// Console.Write("Введите свой возраст:");
+// int age = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Привет {name}");
+// Console.WriteLine($"Твой возраст: {age}");
+
+///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+
+// Console.Write("Введите чискло в диапазоне от 6 и до 9:");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if(num > 5 && num < 10)
+// {
+//     Console.WriteLine("Число больше 5 и меньше 10 одновременно");
+// }
+// else
+// {
+//     Console.WriteLine("Неизвестное число");
+// }
+//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+// Console.Write("Введите первое число:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// if(num1==num2)
+// {
+//     Console.WriteLine($"Числа {num1} и {num2} равны");
+// }
+// else if(num1>num2)
+// {
+//     Console.WriteLine($"Число {num1} больше чем число {num2}");
+// }
+// else if(num1<num2)
+// {
+//     Console.WriteLine($"Число {num2} больше чем число {num1}");
+// }
+///////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+// Console.Write("Введите число 5 или 10:");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num==5 || num == 10)
+// {
+//     Console.WriteLine("Число равно либо 5 либо 10");
+// }
+// else
+// {
+//     Console.WriteLine("Неизвестное число");
+// }
+///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+
+// Console.WriteLine("Введите сумму вклада:");
+// double vkl = Convert.ToDouble(Console.ReadLine());
+// if (vkl<=100)
+// {
+//     vkl+= vkl*0.05;
+// }
+// else if (vkl<=200)
+// {
+//     vkl += vkl*0.07;
+// }
+// else
+// {
+//     vkl += vkl*0.1;
+// }
+// Console.WriteLine($"Сумма вклада после начисления процентов: {vkl}");
+// Console.ReadKey();
+
+//////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+
+
+// Console.WriteLine("Введите сумму вклада:");
+// double vkl = Convert.ToDouble(Console.ReadLine());
+// double bonus = 0;
+// if (vkl<=100)
+// {
+//     bonus = 0.05;
+// }
+// else if (vkl<=200)
+// {
+//     bonus = 0.07;
+// }
+// else
+// {
+//     bonus = 0.1;
+// }
+
+// vkl += vkl*bonus + 15;
+// Console.WriteLine($"Сумма вклада после начисления процентов: {vkl}");
+// Console.ReadKey();
+/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+// Console.WriteLine("Выбереите одну из арифметических операций: 1.Сложение,2.Вычитание,3.Умножение:");
+// int op = Convert.ToInt32(Console.ReadLine());
+// switch(op)
+// {
+//     case 1:
+//     Console.WriteLine("Сложение");
+//     break;
+//     case 2:
+//     Console.WriteLine("Вычтание");
+//     break;
+//     case 3:
+//     Console.WriteLine("Умножение");
+//     break;
+// }
+/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+// Console.WriteLine("Выберите одну из арифметических операций: 1.Сложение, 2.Вычитание, 3.Умножение:");
+// int op = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите первое число:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+
+// switch(op)
+// {
+//     case 1:
+//     num1 = num1 + num2;
+//     Console.WriteLine($"Результат операции:{num1}");
+//     break;
+//     case 2:
+//     num1 = num1 - num2;
+//     Console.WriteLine($"Результат операции:{num1}");
+//     break;
+//     case 3:
+//     num1 = num1 * num2;
+//     Console.WriteLine($"Результат операции:{num1}");
+//     break;
+//     default:
+//     Console.WriteLine("Неизвестная операция");
+//     break;
+// }
+// Console.ReadKey();
+
+////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+// Console.Write("Выберите одну из арифметических операций: 1.Сложение,2.Вычитание,3.Умножение:");
+// int op = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите первое число:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// if(op==1)
+// {
+//     num1 = num1 + num2;
+// }
+// else if (op == 2)
+// {
+//     num1 = num1 - num2;
+// }
+// else if (op == 3)
+// {
+//     num1 = num1 * num2;
+// }
+// else
+// {
+//     Console.WriteLine("Неопределённая операция");
+// }
+// Console.WriteLine($"Результат: {num1}");
+// Console.ReadKey();
+
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+
