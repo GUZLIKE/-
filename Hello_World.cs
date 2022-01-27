@@ -515,4 +515,40 @@
 
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
+// ПЕРВАЯ ЗАДАЧА
+// for(int i = 10; i <= 20; i++)
+// Console.WriteLine(i*i);
+/////////////////////////////////////////////////////////
+// ВТОРАЯ ЗАДАЧА
+// Console.WriteLine("Введите число N:");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int[] array = new int[n];
+// int sum = 0;
 
+// for (int i = 0; i<n; i++)
+// {
+// Console.WriteLine($"Ведите {i+1} слагаемое");
+// array[i] = Convert.ToInt32(Console.ReadLine());
+// sum = sum + array[i];
+// }
+// Console.WriteLine("");
+// Console.WriteLine("Ответ: " + sum);
+// Console.ReadKey();
+/////////////////////////////////////////////////////////
+// ТРЕТЬЯ ЗАДАЧА
+// Console.WriteLine("Введите число N:");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int[] array = new int[n];
+// int sum = 1;
+
+// for (int i = 0; i<n; i++)
+// {
+// Console.WriteLine($"Ведите {i+1} слагаемое");
+// array[i] = Convert.ToInt32(Console.ReadLine());
+// sum *= sum + array[i];
+// }
+
+// Console.WriteLine("");
+// Console.WriteLine("Ответ: " + sum);
+// Console.ReadKey();
+/////////////////////////////////////////////////////////
